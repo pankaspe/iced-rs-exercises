@@ -29,7 +29,7 @@ iced-rs-exercises/
 │  │   ├─ mod.rs
 │  │   ├─ state.rs
 │  │   └─ message.rs
-│  └─ todo/           # To-Do List exercise (planned)
+│  └─ todo/           # To-Do List exercise 
 │      ├─ mod.rs
 │      ├─ state.rs
 │      └─ message.rs
@@ -50,7 +50,7 @@ iced-rs-exercises/
   - Buttons, text, and container alignment.
   - Modular Rust structure with `mod.rs`, `state.rs`, and `message.rs`.
 
-### 2. To-Do List (Planned)
+### 2. To-Do List
 - Add, remove, and toggle tasks.
 - Demonstrates:
   - Dynamic collections with `Vec<T>`.
@@ -82,7 +82,7 @@ cd iced-rs-exercises
 2. Build and run an exercise (example: Counter):
 
 ```bash
-cargo run --bin counter
+cargo run
 ```
 
 3. Explore other exercises as they are added.
@@ -94,16 +94,6 @@ cargo run --bin counter
 * [Iced Documentation](https://docs.rs/iced)
 * [The Elm Architecture](https://guide.elm-lang.org/architecture/)
 * [Rust Book](https://doc.rust-lang.org/book/)
-
----
-
-## 🎯 Future Exercises Ideas
-
-* Stopwatch / Timer with Start, Pause, Reset
-* Simple Calculator
-* Weather App (fetching API data asynchronously)
-* Markdown Viewer
-* Interactive Drawing Canvas
 
 ---
 
