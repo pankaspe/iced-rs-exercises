@@ -14,4 +14,4 @@ pub use state::Counter;
 // Keeping it private is a good practice because the main.rs does not need to know about individual messages.
 // If in the future multiple modules need to share Message, you could uncomment the following line:
 //
-// pub use message::Message;
+pub use message::Message;

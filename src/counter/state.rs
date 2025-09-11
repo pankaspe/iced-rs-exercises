@@ -18,7 +18,7 @@ use super::message::Message;
 // ----------------------------
 // Define the application state
 // ----------------------------
-#[derive(Default)]
+#[derive(Default, Debug, Clone)]
 pub struct Counter {
     // This is the single piece of state: the counter's current value.
     pub value: i32,

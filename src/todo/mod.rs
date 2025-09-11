@@ -10,3 +10,4 @@ pub mod message;  // contains the Message enum
 // This allows other files (like main.rs) to do:
 // `use todo::TodoApp;` instead of `use todo::state::TodoApp;`
 pub use state::TodoApp;
+pub use message::Message;
